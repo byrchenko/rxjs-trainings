@@ -1,10 +1,10 @@
 {
-  "name": "rxjs",
+  "name": "rxj-practice",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config webpack.config.js --watch",
+    "start": "webpack-dev-server --config webpack.config.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +13,8 @@
   "dependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.41.4"
+    "rxjs": "^6.5.3",
+    "webpack": "^4.41.4",
+    "webpack-dev-server": "^3.10.1"
   }
 }
